@@ -1,11 +1,4 @@
-import {
-  AbilityBuilder,
-  createMongoAbility,
-  MongoAbility,
-  InferSubjects,
-  PureAbility,
-  defineAbility,
-} from "@casl/ability";
+import { MongoAbility, InferSubjects, defineAbility } from "@casl/ability";
 import { IUser } from "../models/user.model";
 import { IPost } from "../models/post.model";
 
